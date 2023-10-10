@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d818e024-8b2c-4141-9d62-637b85d44c29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/degrees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../degrees/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tictactoe/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tictactoe/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tictactoe/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tictactoe/tictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/people.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/stars.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2WX5hMYoopfp0XZLCGp98OC4rFU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jinheng/Desktop/cs50_AI/knights",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d818e024-8b2c-4141-9d62-637b85d44c29" name="Changes" comment="" />
+      <created>1696866202438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696866202438</updated>
+      <workItem from="1696866203483" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
