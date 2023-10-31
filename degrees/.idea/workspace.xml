@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9551abfd-aa84-4b15-be01-d4a2504af0ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/degrees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/tictactoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/large/movies.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/large/people.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/large/stars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/degrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/degrees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/large/.movies.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/large/.people.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/large/.stars.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knights/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../knights/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../knights/puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../knights/puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tictactoe/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +44,35 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="degrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="degrees" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/degrees.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.degrees" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +83,10 @@
       <updated>1695459726599</updated>
       <workItem from="1695459727650" duration="3166000" />
       <workItem from="1696866101685" duration="29000" />
+      <workItem from="1698040904349" duration="82000" />
+      <workItem from="1698041385258" duration="243000" />
+      <workItem from="1698479260656" duration="1631000" />
+      <workItem from="1698659045228" duration="78000" />
     </task>
     <servers />
   </component>
@@ -67,5 +95,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/degrees$degrees.coverage" NAME="degrees Coverage Results" MODIFIED="1695467627779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/degrees_py$degrees.coverage" NAME="degrees Coverage Results" MODIFIED="1698480141240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -11,22 +11,51 @@ CKnave = Symbol("C is a Knave")
 
 # Puzzle 0
 # A says "I am both a knight and a knave."
+Puzzle0_Asays = And(AKnight, AKnave)
 knowledge0 = And(
     # TODO
+    Or(AKnight, AKnave),
+    Implication(AKnave, Not(AKnight)),
+    Implication(AKnave, Not(Puzzle0_Asays)),
+    Implication(AKnight, Puzzle0_Asays)
+
 )
 
 # Puzzle 1
 # A says "We are both knaves."
 # B says nothing.
+Puzzle1_Asays = And(AKnight, BKnight)
 knowledge1 = And(
     # TODO
+    Or(AKnight, AKnave),
+    Implication(AKnave, Not(AKnight)),
+    Implication(AKnight, Not(AKnave)),
+    Or(BKnight, BKnave),
+    Implication(BKnave, Not(BKnight)),
+    Implication(BKnight, Not(BKnave)),
+    Implication(AKnave, Not(Puzzle1_Asays)),
+    Implication(AKnight, Puzzle1_Asays)
+
 )
 
 # Puzzle 2
 # A says "We are the same kind."
 # B says "We are of different kinds."
+Puzzle2_Asays = Or(And(AKnight, BKnight), And(AKnave, BKnave))
+Puzzle2_Bsays = Or(And(AKnave, BKnight), And(AKnight, BKnave))
 knowledge2 = And(
     # TODO
+    Or(AKnight, AKnave),
+    Implication(AKnave, Not(AKnight)),
+    Implication(AKnight, Not(AKnave)),
+    Or(BKnight, BKnave),
+    Implication(BKnave, Not(BKnight)),
+    Implication(BKnight, Not(BKnave)),
+    Implication(AKnight, Puzzle2_Asays),
+    Implication(AKnave, Not(Puzzle2_Asays)),
+    Implication(BKnight, Puzzle2_Bsays),
+    Implication(BKnave, Not(Puzzle2_Bsays))
+
 )
 
 # Puzzle 3
@@ -34,8 +63,23 @@ knowledge2 = And(
 # B says "A said 'I am a knave'."
 # B says "C is a knave."
 # C says "A is a knight."
+Puzzle3_Csays = AKnight
 knowledge3 = And(
     # TODO
+    Or(AKnight, AKnave),
+    Implication(AKnave, Not(AKnight)),
+    Implication(AKnight, Not(AKnave)),
+    Or(BKnight, BKnave),
+    Implication(BKnave, Not(BKnight)),
+    Implication(BKnight, Not(BKnave)),
+    Or(CKnave, CKnight),
+    Implication(CKnave, Not(CKnight)),
+    Implication(CKnight, Not(CKnave)),
+
+    AKnight,
+    BKnave,
+    Implication(CKnight, Puzzle3_Csays),
+    Implication(CKnave, Not(Puzzle3_Csays))
 )
 
 

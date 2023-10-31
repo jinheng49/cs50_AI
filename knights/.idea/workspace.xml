@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d818e024-8b2c-4141-9d62-637b85d44c29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/degrees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../degrees/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/tictactoe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../degrees/large/movies.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../degrees/large/people.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../degrees/large/stars.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../degrees/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/degrees.py" beforeDir="false" afterPath="$PROJECT_DIR$/../degrees/degrees.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/.movies.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/.people.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../degrees/large/.stars.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/puzzle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tictactoe/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/tictactoe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +22,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2WX5hMYoopfp0XZLCGp98OC4rFU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jinheng/Desktop/cs50_AI/knights",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jinheng/Desktop/cs50_AI/knights&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,10 +53,15 @@
       <option name="presentableId" value="Default" />
       <updated>1696866202438</updated>
       <workItem from="1696866203483" duration="302000" />
+      <workItem from="1698481906296" duration="2838000" />
+      <workItem from="1698659048569" duration="77000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/knights$puzzle.coverage" NAME="puzzle Coverage Results" MODIFIED="1698550947578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

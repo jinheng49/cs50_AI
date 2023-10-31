@@ -53,7 +53,7 @@ def result(board, action):
 
     new_board = copy.deepcopy(board)
     fill = player(board)
-    i,j = action
+    i, j = action
     if board[i][j] != EMPTY:
         raise Exception("infeasible move")
     new_board[i][j] = fill

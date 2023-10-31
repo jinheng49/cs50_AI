@@ -55,7 +55,7 @@ def load_data(directory):
 
 def main():
     if len(sys.argv) > 2:
-        sys.exit("Usage: python degrees.py [directory]")
+        sys.exit("Usage: python3 degrees.py [directory]")
     directory = sys.argv[1] if len(sys.argv) == 2 else "large"
 
     # Load data from files into memory
@@ -101,7 +101,7 @@ def shortest_path(source, target):
         neighbors = neighbors_for_person(node.state)
         for neighbor in neighbors:
             _, person_id = neighbor
-            
+
             # find a solution
             if person_id == target:
                 path = [neighbor]
@@ -114,7 +114,7 @@ def shortest_path(source, target):
             # add node to frontier
             if person_id not in explored and not frontier.contains_state(person_id):
                 frontier.add(Node(person_id, node, neighbor))
-            
+
     return None
 
 
